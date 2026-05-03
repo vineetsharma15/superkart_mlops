@@ -15,6 +15,7 @@ if not hf_token:
     raise ValueError("HF_TOKEN environment variable is not set.")
 
 api = HfApi(token=hf_token)
+DATASET_REPO_ID = "vsharma15/superkart_mlops"
 DATASET_PATH = f"hf://datasets/vsharma15/superkart_mlops/SuperKart.csv"
 
 # ----------------------------
